@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
+}
+
+.contener{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+
+}
+
+.imag-celular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.imag-celular img{
+    height: 40rem;
+}
+
+.conta{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(177, 169, 169);
+    align-items: center;
+    justify-content: center;
+    margin-left: 1px;
+    height: 50%;
+    width: 40%;
+    background-color: white;
+}
+
+
+.minha-foto{
+    border-radius: 50%;
+    width: 25%;
+    height: 30%;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    
+}
+img .letra-insta {
+    height: 10%;
+    width: 20%;
+   
+}
+.bts{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    background-color: rgb(37, 131, 253);
+    border: none;
+    color: white;
+    padding: 7px;
+    border-radius: 6%;
+}
+.recu{
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.recu a{
+    color: rgb(37, 131, 253);
+    
+}
